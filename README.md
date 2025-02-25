@@ -1,5 +1,21 @@
 # 👋 Hi, I'm DevAndFugue!
 
+## 📊 GitHub Stats  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DevAndFugue&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DevAndFugue&theme=tokyonight&hide_border=true" width="48%" />
+</p>
+
+## 📈 Contribution Graph  
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevAndFugue&theme=tokyo-night&hide_border=true" />
+</p>
+
+## 🔥 Most Used Languages  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevAndFugue&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+</p>
+
 ### 💻 About Me  
 - 백엔드 개발자로 **Java, Spring Framework, MyBatis** 등을 활용하여 개발하고 있습니다.  
 - **Git, GitLab, Oracle** 등을 다루며, 협업과 유지보수를 고려한 개발을 지향합니다.  
