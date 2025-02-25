@@ -28,4 +28,6 @@
 현재 **React, TypeScript, Spring Boot** 등의 기술을 학습하며, 새로운 기술을 적극적으로 익히고 있습니다.  
 
 ### 📌 Featured Projects  
-🚀 **포트폴리오 프로젝트 리스트 추가 예정** 🚀  
+- ⏱ [JS로 만든 타이머](https://devandfugue.github.io/timer/)  
+- 📖 [TS에 관한 이론 정리](https://github.com/DevAndFugue/Typescript_summary)  
+
