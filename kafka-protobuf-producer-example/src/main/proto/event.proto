@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.example.kafka.proto";
+option java_outer_classname = "EventProtos";
+option java_multiple_files = true;
+
+message UserEvent {
+  string event_id = 1;
+  string user_id = 2;
+  int64 occurred_at_epoch_ms = 3;
+  string payload = 4;
+}
