@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: kafka-protobuf-producer-example
+
+app:
+  kafka:
+    bootstrap-servers: localhost:9092
+    topic: user-events
+    # throughput-oriented defaults; tune per cluster SLA
+    linger-ms: 10
+    batch-size: 65536
+    buffer-memory: 67108864
+    compression-type: lz4
+    acks: "1"
+    max-in-flight-requests: 5
+
+logging:
+  level:
+    com.example.kafka: INFO
