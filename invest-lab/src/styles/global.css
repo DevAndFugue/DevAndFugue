@@ -1,0 +1,75 @@
+:root {
+  --bg0: #0f1c18;
+  --bg1: #162821;
+  --bg2: #1e342b;
+  --ink: #e8f2ec;
+  --muted: #9bb5a8;
+  --accent: #d4a017;
+  --accent-soft: rgba(212, 160, 23, 0.16);
+  --line: rgba(232, 242, 236, 0.12);
+  --ok: #3dba7e;
+  --warn: #e0a35b;
+  --font-display: "Newsreader", "Apple SD Gothic Neo", serif;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #243f34 0%, transparent 55%),
+    radial-gradient(900px 500px at 90% 0%, #2a2a12 0%, transparent 50%),
+    linear-gradient(160deg, var(--bg0), #121a16 48%, #0c1411);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-line {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
